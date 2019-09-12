@@ -4,7 +4,7 @@
   $ yarn install && open http://localhost:4000 && yarn run start
 ```
 
-## Graphql
+## GraphQL
 ```bash
   $ http://localhost:4000/graphql
 ```
