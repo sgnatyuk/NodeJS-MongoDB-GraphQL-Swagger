@@ -49,6 +49,13 @@ const init = async () => {
   app.route([
     {
       method: 'GET',
+      path: '/',
+      handler: (req, reply) => {
+        return `<h1>NodeJS + MongoDB + GraphQL + Swagger</h1>`;
+      }
+    },
+    {
+      method: 'GET',
       path: '/api/v1/paintings',
       config: {
         description: 'Get all the paintings',
